@@ -1,9 +1,8 @@
 package poker.app.view;
 
-import java.io.File;
+
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import domain.GameRuleDomainModel;
 import enums.eGame;
 import javafx.beans.value.ChangeListener;
@@ -23,16 +22,9 @@ import javafx.scene.control.ToggleGroup;
 import javafx.stage.FileChooser;
 import poker.app.MainApp;
 import pokerBase.Rule;
-
 import logic.GameRuleBLL;
 
-/**
- * The controller for the root layout. The root layout provides the basic
- * application layout containing a menu bar and space where other JavaFX
- * elements can be placed.
- * 
- * @author Marco Jakob
- */
+
 public class RootLayoutController implements Initializable {
 
 	// Reference to the main application

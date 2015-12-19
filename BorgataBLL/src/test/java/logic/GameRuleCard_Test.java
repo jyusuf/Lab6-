@@ -36,6 +36,13 @@ public class GameRuleCard_Test {
 	public void tearDown() throws Exception {
 	}
 	
-	
+	@Test
+	public void GetRules()
+	{
+		grCards = GameRuleCardsBLL.getCardsRules(1);
+		
+		assertTrue(grCards.size() > 0);
+		
+	}
 	
 }

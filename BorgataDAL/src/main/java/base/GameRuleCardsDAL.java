@@ -7,6 +7,7 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import HibernateUtil.HibernateUtil;
+
 public class GameRuleCardsDAL   {
 
 	public static ArrayList<GameRuleCardsDomainModel> getCardsRules() {

@@ -37,6 +37,9 @@ public class GameRule_Test {
 	}
 	
 	@Test
+	public void GetRules()
+	{
+	gr = GameRuleBLL.getRules();
 	
-	
-}
+	assertTrue(gr.size() > 0);
+	}}

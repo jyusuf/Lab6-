@@ -3,13 +3,11 @@ package base;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+import domain.GameRuleDomainModel;
+import HibernateUtil.HibernateUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-
-import domain.GameRuleDomainModel;
-import HibernateUtil.HibernateUtil;
 
 public class GameRuleDAL {
 

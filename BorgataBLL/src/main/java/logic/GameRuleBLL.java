@@ -1,18 +1,16 @@
 package logic;
 
-
+import domain.GameRuleDomainModel;
+import base.GameRuleDAL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import HibernateUtil.HibernateUtil;
-import domain.GameRuleDomainModel;
-import base.GameRuleDAL;
+
 
 public class GameRuleBLL {
 
